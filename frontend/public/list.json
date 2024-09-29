@@ -62,5 +62,21 @@
   "price" : 0,
   "category" : "Free",
   "image" :" https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1726512457~exp=1726516057~hmac=43c4c2a84fea72345f1d6ac48de4f8ee532f3934168a1ca316981fa7e567fda9&w=740"
+ },
+ {
+  "id": 8,
+  "name" : "MacBeth",
+  "title" : "By William Shakespeare",
+  "price" : 0,
+  "category" : "Tale",
+  "image" :" https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1726512457~exp=1726516057~hmac=43c4c2a84fea72345f1d6ac48de4f8ee532f3934168a1ca316981fa7e567fda9&w=740"
+ },
+ {
+  "id": 9,
+  "name" : "Where the mind is without fear",
+  "title" : "Kahan gaya mera dil,dimaag aur darr",
+  "price" : 0,
+  "category" : "Free",
+  "image" :" https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1726512457~exp=1726516057~hmac=43c4c2a84fea72345f1d6ac48de4f8ee532f3934168a1ca316981fa7e567fda9&w=740"
  }
 ]
