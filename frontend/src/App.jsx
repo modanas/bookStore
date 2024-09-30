@@ -5,6 +5,8 @@ import Home from "./home/home"
 import { Navigate, Route, Routes } from "react-router-dom"
 import { Toaster } from "react-hot-toast"
 import { useAuth } from "./context/AuthProvider"
+import ContactPage from "./components/Contact"
+import About from "./components/About"
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/course" element={authUser ? <Courses /> : <Navigate to ="/signup"/>} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/contact" element={<ContactPage/>} />
+      <Route path="/about" element={<About />} />
     </Routes>
     <Toaster />
     </div>

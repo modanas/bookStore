@@ -45,10 +45,10 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/contact">Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/about">About</a>
       </li>
     </>
   );
@@ -86,12 +86,12 @@ function Navbar() {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 dark:bg-slate-800 dark:text-white"
               >
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookStore</a>
+            <a className=" text-2xl font-bold cursor-pointer">bookBarista</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
